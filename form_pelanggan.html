@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Tambah Data Pelanggan</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h4 class="mb-0">Form Tambah Data Pelanggan</h4>
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="idPelanggan" class="form-label">No. ID</label>
+                                <input type="text" class="form-control" id="idPelanggan" name="idPelanggan" placeholder="Masukkan No. ID" required>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label for="namaPelanggan" class="form-label">Nama Pelanggan</label>
+                                <input type="text" class="form-control" id="namaPelanggan" name="namaPelanggan" placeholder="Masukkan Nama Pelanggan" required>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Masukkan Email" required>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label for="tglLahir" class="form-label">Tgl Lahir</label>
+                                <input type="date" class="form-control" id="tglLahir" name="tglLahir" required>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label for="alamat" class="form-label">Alamat</label>
+                                <textarea class="form-control" id="alamat" name="alamat" rows="4" placeholder="Masukkan Alamat" required></textarea>
+                            </div>
+                            
+                            <div class="d-grid gap-2">
+                                <button type="submit" class="btn btn-primary">Simpan Data</button>
+                                <button type="reset" class="btn btn-secondary">Reset</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
